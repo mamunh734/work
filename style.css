@@ -1,0 +1,473 @@
+* {
+    margin: 0 auto;
+}
+/* start header area*/
+header#headerarea {
+    box-shadow: 0px 0px 2px 3px #fff7d1;
+    width: 100%;
+    overflow: hidden;
+    min-height: 88px;
+}
+.logo {
+    width: 9%;
+    float: left;
+}
+
+.logo img {
+    width: 120px;
+    padding-left: 31px;
+    padding-top: 5px;
+}
+.primaryNavigation {
+    width: 80%;
+    float: right;
+  }
+
+.primaryNavigation ul {
+    float: right;
+    padding-right: 20px;
+}
+
+.primaryNavigation ul li {
+    /* list-style: none; */
+    display: inline-block;
+    float: left;
+}
+
+.primaryNavigation ul li a {
+    color: #080808;
+    text-decoration: none;
+    display: block;
+    line-height: 69px;
+    padding: 12px 19px;
+    font-size: 19px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.primaryNavigation ul li a:hover {
+    color: #7fcc2a;
+    transition: width 0.7s;
+}
+.primaryNavigation ul li::after {
+    content: "";
+    width: 0%;
+    height: 3px;
+    background: #7fcc2a;
+
+    display: block;
+    transition: width 0.7s;
+}
+.primaryNavigation ul li:hover::after {
+    width: 100%;
+}
+/*end header Area*/
+
+/*introduction section start*/
+
+.imagearea {
+    width: 50%;
+    float: right;
+}
+
+.imagearea img {
+    width: 674px;
+    padding-top: 5px;
+}
+
+.txtarea p {
+    font-family: "Nunito", sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 3px;
+    width: 645px;
+    float: left;
+    padding-top: 76px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+.txtarea h2 {
+    font-family: "Nunito", sans-serif;
+    font-weight: 900;
+    width: 645px;
+    float: left;
+    overflow: hidden;
+    font-size: 66px;
+    padding-left: 28px;
+}
+
+.txtarea {
+    width: 50%;
+    float: left;
+    padding-left: 0px;
+}
+
+.txtarea h2 span {
+    color: #7fcc2a;
+}
+/*introduction section end*/
+
+/*about section start*/
+section.AboutMe {
+    width: 100%;
+    overflow: hidden;
+    border-top: 12px solid #ececec;
+    padding-bottom: 30px;
+}
+
+.profile {
+    width: 50%;
+    float: left;
+}
+
+.profile img {
+    width: 585px;
+    margin-left: 28px;
+    margin-top: 30px;
+    border-left: 8px solid #46484e;
+    border-top: 8px solid #46484e;
+}
+.information {
+    width: 50%;
+    float: right;
+}
+
+.information h3 {
+}
+
+.information h3 {
+    font-family: "Nunito";
+    font-weight: 900;
+    font-size: 35px;
+    padding-top: 150px;
+}
+
+.information p {
+    font-family: "Nunito";
+    font-size: 17px;
+    padding-top: 26px;
+    padding-bottom: 5px;
+}
+
+button.btn {
+    background: #7fcc2a;
+    color: white;
+    border: none;
+    font-size: 20px;
+    padding: 8px;
+    font-family: "Nunito";
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/*about section End*/
+
+/*Services Area Start*/
+section.services {
+    width: 100%;
+    border-top: 12px solid #e2e2e2;
+}
+
+.servicetxt h1 {
+    text-align: center;
+    font-family: "Nunito";
+    font-size: 55px;
+    font-weight: 700;
+    width: 20%;
+    margin-top: 50px;
+}
+
+.servicetxt p {
+    width: 495px;
+    text-align: center;
+    font-size: 15px;
+    font-family: "Nunito";
+}
+
+.allservices {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+
+.services1 {
+    width: 26%;
+    text-align: center;
+    box-shadow: 0px 0px 8px -3px #46484e;
+    margin-top: 35px;
+}
+
+.services1 i {
+    font-size: 26px;
+    background: #7fcc2a;
+    color: white;
+    padding: 10px;
+    border-radius: 100%;
+    margin-top: 20px;
+    /* overflow: hidden; */
+    padding-top: 14px;
+    padding-bottom: 13px;
+}
+
+.services1 h3 {
+    font-size: 24px;
+    font-family: "Nunito";
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.services1 p {
+    width: 95%;
+    font-size: 15px;
+    font-family: "Nunito";
+    padding-bottom: 40px;
+}
+/*Services Area End*/
+
+/*skill section start*/
+section.skill {
+    width: 100%;
+    background: #f9f6f6;
+    overflow: hidden;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.lefttxt {
+    width: 46%;
+    float: left;
+    padding-left: 47px;
+}
+
+.lefttxt > h3 {
+    font-family: "Nunito";
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.lefttxt education {
+    font-family: "Nunito";
+    font-size: 17px;
+}
+
+p.education {
+    font-size: 16px;
+    font-family: "Nunito";
+    font-weight: 500;
+    padding-top: 18px;
+    padding-bottom: 10px;
+}
+
+.lefttxt p i {
+    font-size: 20px;
+    color: #7fcc2a;
+}
+.icontxt p {
+    font-size: 20px;
+    font-family: "Nunito";
+    font-weight: 300;
+    padding-top: 12px;
+}
+button.Skillbtn {
+    width: 130px;
+    height: 39px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    background: #7fcc2a;
+    font-family: "Nunito";
+    font-weight: 900;
+    color: white;
+    border-radius: 30px;
+    margin-top: 29px;
+}
+.progressbar {
+    width: 48%;
+    float: right;
+    padding-top: 0;
+    padding-right: 15px;
+}
+
+.mainprog {
+    font-family: "Nunito";
+    padding-top: 23px;
+    /* overflow: hidden; */
+    /* position: relative; */
+}
+
+.skillprog {
+    width: 100%;
+    background: white !important;
+    /* overflow: hidden; */
+    /* position: absolute; */
+    height: 24px;
+    border-radius: 5px;
+}
+
+.progress {
+    height: 24px;
+    float: left;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.progress.htmlCSS {
+    background: #199d68;
+    width: 85%;
+}
+
+.progress.JAVA {
+    background: #ff7437;
+    width: 70%;
+}
+
+.progress.JQUEry {
+    width: 65%;
+    background: #ffa221;
+}
+
+.progress.Bootstrap {
+    width: 73%;
+    background: #365be0;
+}
+
+.progress.WPProgress {
+    background: #424242;
+    width: 80%;
+}
+/*Skill Section End*/
+
+/*hireme section*/
+.hireme_descrip {
+    width: 48%;
+    float: left;
+    padding-left: 45px;
+    padding-bottom: 30px;
+}
+
+.hireme_descrip {
+}
+
+.hireme_descrip > h3 {
+    font-size: 30px;
+    font-weight: 900;
+    font-family: "Nunito";
+    padding-top: 60px;
+    padding-bottom: 12px;
+}
+
+.hireme_descrip > p {
+    width: 85%;
+    float: left;
+    font-family: "Nunito";
+    font-size: 16px;
+}
+
+.form {
+    width: 89%;
+    float: left;
+}
+
+.form input {
+    width: 85%;
+    padding-top: 10px;
+    outline: none;
+    border: none;
+    border: 2px solid #b7b7b7;
+    border-radius: 5px;
+    line-height: 39px;
+    margin-top: 15px;
+}
+
+textarea {
+    width: 85%;
+    margin-top: 15px;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid #b7b7b7;
+}
+
+input.submit_btn {
+    width: 35%;
+    height: 52px;
+    text-align: center;
+    font-family: "Nunito";
+    font-weight: 900;
+    color: #ffffff;
+    background: #7fcc2a;
+    border: none;
+    letter-spacing: 3px;
+}
+.image_hireme {
+    width: 48%;
+    float: left;
+    padding-bottom: 50px;
+}
+
+img.hiremeimg {
+    width: 500px;
+    float: right;
+    margin-right: 75px;
+    margin-top: 40px;
+    box-shadow: 0px 0px 34px 12px #bbddfb;
+}
+/*hire me section end*/
+/*footer section start*/
+.footerfullarea {
+    width: 100%;
+    background: #f9f6f6;
+    overflow: hidden;
+}
+
+.txtcopyright {
+    width: 48%;
+    float: left;
+}
+
+.socialmedia {
+    width: 45%;
+    float: right;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: rith;
+    overflow: hidden;
+}
+
+.txtcopyright p {
+    font-family: "Nunito";
+    font-weight: 500;
+    padding-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.socialmedia p {
+    font-family: "Nunito";
+    width: 101px;
+    float: left;
+    font-size: 17px;
+    padding-left: 284px;
+}
+
+i.fab.fa-twitter {
+    color: #4497fa;
+}
+
+i.fab.fa-pinterest {
+    color: #df1a26;
+}
+
+i.fab.fa-facebook {
+    color: #4867aa;
+}
+
+i.fab.fa-instagram {
+    color: #f78b46;
+}
+
+i.fab.fa-skype {
+    color: #028bc9;
+}
+/*footer section end*/
